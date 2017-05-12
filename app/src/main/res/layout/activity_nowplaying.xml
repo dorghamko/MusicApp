@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.safsaf.musicapp.NowPlayingActivity">
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="showing the details of the song that playing"
+        android:textAllCaps="true"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/title_size" />
+
+    <Button
+        android:id="@+id/nowPlaying_musicLibrary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/layout_marginBottom"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:layout_marginRight="@dimen/layout_marginRight"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/music_library"
+        android:textAllCaps="true"
+        android:textColor="@color/colorTextButton"
+        android:textSize="@dimen/title_size"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/nowPlaying_tracks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/layout_marginBottom"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:layout_marginRight="@dimen/layout_marginRight"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="Tracks"
+        android:textAllCaps="true"
+        android:textColor="@color/colorTextButton"
+        android:textSize="@dimen/title_size"
+        tools:ignore="RtlHardcoded" />
+</LinearLayout>

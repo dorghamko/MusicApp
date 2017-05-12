@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.safsaf.musicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/playLists"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPlayList"
+        android:onClick="openPlaylistActivity"
+        android:text="@string/activity_playLists"
+        android:textAllCaps="true"
+        android:textSize="@dimen/title_size" />
+
+    <TextView
+        android:id="@+id/tracks"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTracks"
+        android:text="@string/activity_tracks"
+        android:textAllCaps="true"
+        android:textSize="@dimen/title_size" />
+
+
+    <TextView
+        android:id="@+id/nowPlaying"
+        style="@style/CategoryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorNowPlaying"
+        android:text="@string/now_playing"
+        android:textAllCaps="true"
+        android:textSize="@dimen/title_size" />
+
+
+</LinearLayout>

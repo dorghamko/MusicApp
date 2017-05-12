@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="label_activity_main">Music Library</string>
+    <string name="activity_playLists">PlayLists</string>
+    <string name="activity_tracks">tracks</string>
+    <string name="recently_added">Recently added</string>
+    <string name="most_played">Most played</string>
+    <string name="recent_played">Recent Played</string>
+    <string name="label_playlist">PLAYLISTS</string>
+    <string name="label_tracks">TRACKS</string>
+    <string name="the_list_of_songs">the list of songs</string>
+    <string name="now_playing">now playing</string>
+    <string name="label_nowPlaying">NOW PLAYING</string>
+    <string name="music_library">music Library</string>
+</resources>
