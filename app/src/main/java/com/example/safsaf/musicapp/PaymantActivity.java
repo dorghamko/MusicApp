@@ -30,7 +30,7 @@ public class PaymantActivity extends AppCompatActivity {
                 Intent nowPlayingTracksIntent = new Intent(PaymantActivity.this, TracksActivity.class);
                 // start the new Activity
                 startActivity(nowPlayingTracksIntent);
-
+//
             }
         });
     }
