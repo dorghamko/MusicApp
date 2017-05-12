@@ -65,6 +65,24 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        // find the view that shows the payment
+
+        final TextView payment = (TextView) findViewById(R.id.payment);
+
+        // set a clickListener  on that view
+        payment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // create a new intent to open the {@link PaymentActivity}
+
+                Intent paymentIntent = new Intent(MainActivity.this, PaymantActivity.class);
+                // start the new Activity
+                startActivity(paymentIntent);
+
+            }
+        });
     }
 
 

@@ -12,4 +12,7 @@
     <string name="now_playing">now playing</string>
     <string name="label_nowPlaying">NOW PLAYING</string>
     <string name="music_library">music Library</string>
+    <string name="label_payment">NOW PLAYING</string>
+    <string name="payment">payment</string>
+    <string name="tracks">Tracks</string>
 </resources>

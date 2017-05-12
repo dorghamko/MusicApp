@@ -6,6 +6,7 @@
     <color name="colorPlayList">#ff4056</color>
     <color name="colorTracks">#18af07</color>
     <color name="colorNowPlaying">#e97130</color>
+    <color name="colorPayment">#e3ea1c</color>
     <color name="colorText">#e70d06</color>
     <color name="colorTextButton">#ffffff</color>
 </resources>
