@@ -1,6 +1,7 @@
 package com.example.safsaf.musicapp;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,11 +14,15 @@ import static com.example.safsaf.musicapp.R.id.tracks_musicLibrary;
 import static com.example.safsaf.musicapp.R.id.tracks_nowPlaying;
 
 public class NowPlayingActivity extends AppCompatActivity {
-
+    MediaPlayer mediaPlayer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nowplaying);
+
+        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.voca_jobs_7);
+
+        mediaPlayer.start();
         // find the view that shows the music Library
 
         final Button nowPlayingMusicLibrary = (Button) findViewById(nowPlaying_musicLibrary);
@@ -53,5 +58,12 @@ public class NowPlayingActivity extends AppCompatActivity {
 
             }
         });
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mediaPlayer.stop();
+        mediaPlayer.release();
+
     }
 }

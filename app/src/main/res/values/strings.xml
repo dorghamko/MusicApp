@@ -15,4 +15,5 @@
     <string name="label_payment">NOW PLAYING</string>
     <string name="payment">payment</string>
     <string name="tracks">Tracks</string>
+    <string name="the_following_classes_are_used_to_play_sound_and_video_in_the_android_framework_mediaplayer_this_class_is_the_primary_api_for_playing_sound_and_video_audiomanager_this_class_manages_audio_sources_and_audio_output_on_a_device">The following classes are used to play sound and video in the Android framework: MediaPlayer This class is the primary API for playing sound and video. AudioManager This class manages audio sources and audio output on a device.</string>
 </resources>
